@@ -1,2 +1,6 @@
 .antlr/
-parser/
+parser/*
+!parser/generate.go
+!parser/generate.sh
+!parser/Grammar.g4
+antlr-*.jar

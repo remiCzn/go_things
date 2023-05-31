@@ -1,1 +1,0 @@
-antlr -Dlanguage=Go -o parser Grammar.g4

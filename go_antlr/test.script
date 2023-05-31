@@ -1,0 +1,2 @@
+let x = ifz 0 then 3*2 else 2+3;
+x

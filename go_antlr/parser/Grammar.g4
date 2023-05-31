@@ -2,9 +2,10 @@ grammar Grammar;
 
 // règles syntaxiques
 
-program: statement+;
+program: statement* return;
 
 statement: term ';';
+return: term;
 
 term:
 	LIT										# Lit
